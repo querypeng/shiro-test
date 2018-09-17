@@ -12,6 +12,7 @@ public class Demo {
 		for (int i = 0, length = str.length(); i < 8; i++)
 			code.append(str.charAt((int) (Math.random() * length)));
         System.out.println("1231");
+		System.out.println("abc");
 		return code.toString();
 
 	}
