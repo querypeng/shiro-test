@@ -11,7 +11,7 @@ public class Demo {
 		StringBuilder code = new StringBuilder();
 		for (int i = 0, length = str.length(); i < 8; i++)
 			code.append(str.charAt((int) (Math.random() * length)));
-
+		System.out.println("123132");
 		return code.toString();
 
 	}
